@@ -1,34 +1,59 @@
+<!-- Challenge:
+1. Focus on writing semantic HTML and using the correct elements based on the content.
+2. Train your eye for detail by getting your solution to look similar to the design.
+3. The font sizes in this project are slightly smaller in the mobile layout. Find a way to 
+reduce font size for smaller screens without using media queries. -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This component displays a preview of a blog with the essential content"
+    />
+    <meta name="keywords" content="HTML, CSS, Desktop design, Mobile design" />
+    <meta name="author" content="Rupali Roy Choudhury" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <h1 class="visually-hidden">List of blogs</h1>
+    <div class="card">
+      <img
+        src="./assets/images/illustration-article.svg"
+        alt="Illustration for the blog article"
+        width="279"
+        height="200"
+      />
+      <div class="card-content">
+        <span class="tag">Learning</span>
+        <time class="ribbon-text" datetime="2023-12-21">Published 21 Dec 2023</p>
+        <h2>HTML & CSS foundations</h2>
+        <p>
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+      <div class="card-footer" aria-label="Author information">
+        <img
+          src="./assets/images/image-avatar.webp"
+          width="32"
+          height="32"
+          alt="Avatar of Greg Hooper"
+          class="avatar"
+        />
+        <span class="author-name">Greg Hooper</span>
+      </div>
+    </div>
+  </body>
 </html>
