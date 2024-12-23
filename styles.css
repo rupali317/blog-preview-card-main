@@ -157,7 +157,7 @@ body {
 .blog-illustration {
   border-radius: var(--border-radius-2);
   object-fit: cover; /* RRC: Understand this and understand the effects without it*/
-  width: fit-content;
+  width: 100%;
 }
 
 .tag {
