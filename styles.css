@@ -164,20 +164,20 @@ body {
   padding: var(--spacing-1) var(--spacing-2);
   border-radius: var(--border-radius-1);
   font-weight: var(--font-weight-extra-bold);
-  font-size: var(--font-size-1);
+  font-size: clamp(var(--font-size-1), 1vw, var(--font-size-2));
   background-color: var(--primary-color-1);
   width: fit-content; /*RRC: Control the width*/
 }
 
 .card time {
   font-weight: var(--font-weight-medium);
-  font-size: var(--font-size-1);
+  font-size: clamp(var(--font-size-1), 1vw, var(--font-size-2));
 }
 
 /* h2, */
 a {
   font-weight: var(--font-weight-extra-bold);
-  font-size: var(--font-size-4);
+  font-size: clamp(var(--font-size-4), 2vw, var(--font-size-5));
   text-decoration: none;
   color: inherit; /* RRC: Why do i need to define the color separately why not automatocally use from the body? */
 }
@@ -190,7 +190,7 @@ a:hover {
 
 .card p {
   font-weight: var(--font-weight-medium);
-  font-size: var(--font-size-2);
+  font-size: clamp(var(--font-size-2), 2vw, var(--font-size-3));
   color: var(--neutral-color-2);
 }
 
