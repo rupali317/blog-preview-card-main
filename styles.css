@@ -122,6 +122,7 @@ body {
   justify-content: center;
   font-family: "Figtree";
   color: var(--neutral-color-1);
+  padding: var(--spacing-3);
 }
 
 .card {
