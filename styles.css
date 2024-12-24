@@ -135,7 +135,7 @@ article {
   box-shadow: var(--shadow-1);
   border-radius: var(--border-radius-3);
   border: var(--border-width-1) solid var(--neutral-color-1);
-  max-width: 20rem; /* 327px */ /* RRC: Check if max-width or min-width? */
+  max-width: 20rem; /* 327px */
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -146,7 +146,6 @@ article {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-  /* RRC: Understand visually-hidden */
 }
 
 .card-content {
@@ -157,7 +156,7 @@ article {
 
 .blog-illustration {
   border-radius: var(--border-radius-2);
-  object-fit: cover; /* RRC: Understand this and understand the effects without it*/
+  object-fit: cover;
   width: 100%;
 }
 
@@ -167,7 +166,7 @@ article {
   font-weight: var(--font-weight-extra-bold);
   font-size: clamp(var(--font-size-1), 1vw, var(--font-size-2));
   background-color: var(--primary-color-1);
-  width: fit-content; /*RRC: Control the width*/
+  width: fit-content;
 }
 
 article time {
@@ -175,15 +174,13 @@ article time {
   font-size: clamp(var(--font-size-1), 1vw, var(--font-size-2));
 }
 
-/* h2, */
 a {
   font-weight: var(--font-weight-extra-bold);
   font-size: clamp(var(--font-size-4), 2vw, var(--font-size-5));
   text-decoration: none;
-  color: inherit; /* RRC: Why do i need to define the color separately why not automatocally use from the body? */
+  color: inherit;
 }
 
-/* h2:hover, */
 a:hover {
   color: var(--primary-color-2);
   cursor: pointer;
