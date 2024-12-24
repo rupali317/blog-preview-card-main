@@ -2,6 +2,7 @@
 :root {
   /* Colors */
   --primary-color-1: hsl(47, 88%, 63%);
+  --primary-color-2: hsl(47, 36%, 45%);
   --neutral-color-1: hsl(0, 0%, 7%);
   --neutral-color-2: hsl(0, 0%, 42%);
   --neutral-color-3: hsl(0, 0%, 100%);
@@ -184,7 +185,7 @@ a {
 
 /* h2:hover, */
 a:hover {
-  color: var(--primary-color-1);
+  color: var(--primary-color-2);
   cursor: pointer;
 }
 
