@@ -125,7 +125,7 @@ body {
   padding: var(--spacing-3);
 }
 
-.card {
+article {
   background-color: var(--neutral-color-3);
   padding: var(--spacing-3);
   display: flex;
@@ -169,7 +169,7 @@ body {
   width: fit-content; /*RRC: Control the width*/
 }
 
-.card time {
+article time {
   font-weight: var(--font-weight-medium);
   font-size: clamp(var(--font-size-1), 1vw, var(--font-size-2));
 }
@@ -188,7 +188,7 @@ a:hover {
   cursor: pointer;
 }
 
-.card p {
+article p {
   font-weight: var(--font-weight-medium);
   font-size: clamp(var(--font-size-2), 2vw, var(--font-size-3));
   color: var(--neutral-color-2);
@@ -206,7 +206,7 @@ a:hover {
 }
 
 @media (min-width: 80rem) {
-  .card {
+  article {
     max-width: 24rem; /* 384px */
   }
 }
