@@ -135,7 +135,7 @@ article {
   box-shadow: var(--shadow-1);
   border-radius: var(--border-radius-3);
   border: var(--border-width-1) solid var(--neutral-color-1);
-  max-width: 20rem; /* 327px */
+  max-width: 20rem; /* 320px */
 }
 
 .visually-hidden:not(:focus):not(:active) {
