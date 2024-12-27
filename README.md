@@ -30,24 +30,24 @@ Users should be able to:
 
 ##### 1. Desktop version
 
-![]()
-![]()
+![Blog preview card - default](./assets/screenshots/desktop/Blog-preview-card-default.png)
+![Blog preview card - hover](./assets/screenshots/desktop/Blog-preview-card-hover.png)
 
 ##### 2. Mobile version
 
-![]()
-![]()
+![Blog preview card - default](./assets/screenshots/mobile/Blog-preview-card-default.jpg)
+![Blog preview card - hover](./assets/screenshots/mobile/Blog-preview-card-hover.jpg)
 
 ### PageSpeed Insights results
 
-[Mobile version]()
+[Mobile version](https://pagespeed.web.dev/analysis/https-rupali317-github-io-blog-preview-card-main/y6htck4h6s?form_factor=mobile)
 
-[Desktop version]()
+[Desktop version](https://pagespeed.web.dev/analysis/https-rupali317-github-io-blog-preview-card-main/y6htck4h6s?form_factor=desktop)
 
 ### Links
 
-- Solution URL: [Github solution]()
-- Live Site URL: [Live URL]()
+- Solution URL: [Github solution](https://github.com/rupali317/blog-preview-card-main)
+- Live Site URL: [Live URL](https://rupali317.github.io/blog-preview-card-main/)
 
 ## My process
 
