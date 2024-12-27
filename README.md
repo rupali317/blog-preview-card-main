@@ -69,17 +69,19 @@ Active state
 
 - Browsers used for testing: Google Chrome, Firefox, Safari, Brave, Microsoft Edge.
 - Devices:
-  - (Real) MacBook Pro (15-inch), Samsung Galaxy A33 5G, Samsung Galaxy S20+, iPad Air 2, MacBook Pro (13-inch).
+  - (Real) MacBook Pro (14-inch), Samsung Galaxy A33 5G, Samsung Galaxy S20+, iPad Air (13-inch), MacBook Pro (13-inch).
   - (Virtual) The mobile and tablet devices mentioned under Chrome's dev console.
 - Screen reader: MacOS VoiceOver.
 
 ### What I learned
 
-- TBD
+- Represented the date using a more semantic element `<time>` since it improves SEO as srarch engines can better index date-specfic content. It is handly for automated systems like calendars to easily parse date related content.
+- I was surprised to see that the span element for the tag was initially expanding inspite of being an inline element. I thought including the `width: fit-content;` was not needed for an inline element. The reason it expanded without the width definition was because a `display:flex` was applied on the span's parent element.
+- The content of the child `<p>` indictaes the size of the parent `<article>`. Therefore, min-width on the `<article>` element is not appropriate. Max-width is more apt.
 
 ### Useful resources
 
-- []() - This helped me ...
+- [Linearly Scale font-size with CSS clamp() Based on the Viewport](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/) - This helped me to grasp the concept of scaling font size without using media-queries
 
 ## Acknowledgement
 
