@@ -75,9 +75,9 @@ Active state
 
 ### What I learned
 
-- Represented the date using a more semantic element `<time>` since it improves SEO as srarch engines can better index date-specfic content. It is handly for automated systems like calendars to easily parse date related content.
+- Represented the date using a more semantic element `<time>` since it improves SEO as search engines can better index date-specfic content. It is handly for automated systems like calendars to easily parse date related content.
 - I was surprised to see that the span element for the tag was initially expanding inspite of being an inline element. I thought including the `width: fit-content;` was not needed for an inline element. The reason it expanded without the width definition was because a `display:flex` was applied on the span's parent element.
-- The content of the child `<p>` indictaes the size of the parent `<article>`. Therefore, min-width on the `<article>` element is not appropriate. Max-width is more apt.
+- The content of the child `<p>` indictaes the size of the parent `<article>`. Therefore, min-width on the `<article>` element is not appropriate. max-width is more apt.
 
 ### Useful resources
 
@@ -89,5 +89,5 @@ Active state
 
 ## Author
 
-- Website - [Rupali Roy Choudhury](https://www.linkedin.com/in/rupali-rc/)
+- Linkedin profile - [Rupali Roy Choudhury](https://www.linkedin.com/in/rupali-rc/)
 - Frontend Mentor - [@rupali317](https://www.frontendmentor.io/profile/rupali317)
