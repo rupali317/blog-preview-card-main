@@ -30,12 +30,18 @@ Users should be able to:
 
 ##### 1. Desktop version
 
+Default state
 ![Blog preview card - default](./assets/screenshots/desktop/Blog-preview-card-default.png)
-![Blog preview card - hover](./assets/screenshots/desktop/Blog-preview-card-hover.png)
+
+Hover state
+![Blog preview card - hover](./assets/screenshots/desktop/Blog-preview-card-hover.PNG)
 
 ##### 2. Mobile version
 
+Default state
 ![Blog preview card - default](./assets/screenshots/mobile/Blog-preview-card-default.jpg)
+
+Active state
 ![Blog preview card - hover](./assets/screenshots/mobile/Blog-preview-card-hover.jpg)
 
 ### PageSpeed Insights results
